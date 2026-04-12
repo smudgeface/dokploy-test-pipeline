@@ -11,7 +11,7 @@ def index():
         "status": "running",
         "version": os.getenv("APP_VERSION", "1.0.0"),
         "timestamp": datetime.datetime.now(datetime.timezone.utc).isoformat(),
-        "message": "Deployment pipeline is working!"
+        "message": "v2 - Auto-deploy pipeline verified!"
     })
 
 @app.route("/health")
